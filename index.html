@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Study Planner</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: 'var(--primary-color, #6366F1)',
+              'primary-focus': 'var(--primary-focus-color, #4F46E5)',
+              'primary-content': 'var(--primary-content-color, #FFFFFF)',
+              secondary: 'var(--secondary-color, #10B981)',
+              'secondary-focus': 'var(--secondary-focus-color, #059669)',
+              'secondary-content': 'var(--secondary-content-color, #FFFFFF)',
+              accent: 'var(--accent-color, #EC4899)',
+              'accent-focus': 'var(--accent-focus-color, #DB2777)',
+              'accent-content': 'var(--accent-content-color, #FFFFFF)',
+              neutral: 'var(--neutral-color, #374151)',
+              'neutral-focus': 'var(--neutral-focus-color, #1F2937)',
+              'neutral-content': 'var(--neutral-content-color, #FFFFFF)',
+              'base-100': 'var(--base-100-color, #111827)',
+              'base-200': 'var(--base-200-color, #1F2937)',
+              'base-300': 'var(--base-300-color, #374151)',
+              'base-content': 'var(--base-content-color, #F9FAFB)',
+              info: 'var(--info-color, #3B82F6)',
+              success: 'var(--success-color, #10B981)',
+              warning: 'var(--warning-color, #F59E0B)',
+              error: 'var(--error-color, #EF4444)',
+            },
+          },
+        },
+      };
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.27.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-base-100 text-base-content">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

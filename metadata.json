@@ -1,0 +1,6 @@
+{
+  "name": "AI Study Planner",
+  "description": "An intelligent PWA that helps users create personalized study plans, track progress, and stay motivated with AI-powered assistance and quizzes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
